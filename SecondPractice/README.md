@@ -1,7 +1,7 @@
 # Objektum orientált programozás
 ## 2. gyakorlat. Algoritmizálási feladatok megoldása Java-ban
 
-1. Adjon közelítést Pi értékére (3,1415926535), az alábbi sorozatok első 1000 / 10000 tagjának kiszámításával.
+1. Adjon közelítést Pi értékére (3,1415926535), az alábbi sorozatok első 1000 / 10000 tagjának kiszámításával:<br/>
 Wallis-formula, Leibniz sor.
 
 2. Számítsa ki 1-től 10-ig a számok faktoriálisát. A faktoriális számítást külön függvényben valósítsa meg.
@@ -19,11 +19,11 @@ külön függvényként:
 Gyakorolja a foreach ciklus használatát!
 
 5. Gyakorolja a címkézett ciklusok használatát! Írja ki a számokat az értéküknek megfelelő
-számszor egymás után:
-1
-2 2
-3 3 3
-4 4 4 4
+számszor egymás után:<br/>
+1<br/>
+2 2<br/>
+3 3 3<br/>
+4 4 4 4<br/>
 5 5 5 5 5
 
 #Házi feladat:
@@ -33,4 +33,4 @@ tagjának kiszámításával.
 
 2. 1 és 100 közötti számokból képezzük a Pitagoraszi számhármasokat és írjuk ki táblázatos
 formában (megoldás: 14 ilyen számhármas van). A Pitagoraszi számhármasok egy derékszögű
-háromszög oldalainak egész mérőszámai, azaz teljesül rájuk, hogy a 2 + b 2 = c 2 .
+háromszög oldalainak egész mérőszámai, azaz teljesül rájuk, hogy a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.
