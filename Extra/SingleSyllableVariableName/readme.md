@@ -1,5 +1,9 @@
 # Variable Names
 
+Compare the two assembly (.s) files. They are identical.
+
+If you do not believe me, you can try it yourself (gcc -S test.c)
+
 Single Syllable and normal variable names compile to the same assembly code.
 There is no need to use them outside of loop variables in for cycles.
 
