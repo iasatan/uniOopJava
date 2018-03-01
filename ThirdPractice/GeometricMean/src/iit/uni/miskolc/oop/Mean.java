@@ -24,7 +24,7 @@ public class Mean {
 			mean *= d;
 		}
 		//calculates and prints the size-th root 
-		System.out.println(Math.pow(mean, 1/size));
+		System.out.println(Math.pow(mean, 1.0/size));
 		scanner.close();
 	}
 
