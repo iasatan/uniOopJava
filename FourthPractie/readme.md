@@ -2,6 +2,7 @@
 ## 4. gyakorlat, Osztálydefiníció, objektum létrehozás
 
 1. Készítsen el egy Alkalmazott osztályt és egy Alkalmazott osztályt használó osztályt.
+
 a) Az Alkalmazott osztályban
 - van név és fizetés adattag (félnyilvánosak);
 - van egy metódusa, amely egy paraméterként kapott értékkel megnöveli a fizetést;
@@ -21,15 +22,19 @@ d) Az Alkalmazott osztályt használó osztályban deklaráljunk és töltsünk 
 - Számítsuk ki az alkalmazottak átlagfizetését.
 - Számítsuk ki az alkalmazottak által befizetett adó összértékét.
 
+#
+
 2. Készítsen Könyv osztályt és egy Könyv osztályt használó osztályt.
 a) A Könyv osztály adattagjai: cím, szerző, megjelenés éve, ára. Legyen egy metódusa, amely a paraméterként kapott százalékos értékkel növeli a könyv árát. Legyen egy metódusa, ami egy String-be összefűzi az adatokat és ezt adja vissza.
 b) Írjunk setter metódusokat az adatok beállításához, és getter metódusokat az adatok lekérdezéséhez (adatrejtés → ellenőrzött adathozzáférés).
 
 Házi feladat:
 
-a) Készítsen egy Személy osztályt az alábbi adatokkal: név, súly (egész, kilogramban megadva), magasság (valós, méterben megadva). Legyen egy metódusa, amely visszaadja a testtömeg indexet (tti=tomeg/(m*m)). Legyen egy metódusa, amely visszaad egy alkatot jellemző szöveget: "sovány": tti<18,5
-"kövér": tti>25
-"normál": egyébként
+a) Készítsen egy Személy osztályt az alábbi adatokkal: név, súly (egész, kilogramban megadva), magasság (valós, méterben megadva). Legyen egy metódusa, amely visszaadja a testtömeg indexet (tti=tomeg/(m*m)). Legyen egy metódusa, amely visszaad egy alkatot jellemző szöveget:<br/>
+"sovány": tti<18,5<br/>
+"kövér": tti>25<br/>
+"normál": egyébként<br/>
 Legyen egy metódusa, amely egy String-be összefűzi az adatokat és visszaadja azokat az alábbi alakban: név, súly, magasság, tti: alkat.
 Készítsen egy futtatható osztályt, amelyben beolvassa egy személy adatait (név, súly, magasság) és kiírja azokat összefűzve a kiszámított testtömegindexel és alkattal.
+
 b) Írjunk setter metódusokat az adatok beállításához, és getter metódusokat az adatok lekérdezéséhez (adatrejtés → ellenőrzött adathozzáférés).
