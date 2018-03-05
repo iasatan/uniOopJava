@@ -7,6 +7,7 @@ a) Az Alkalmazott osztályban
 - van név és fizetés adattag (félnyilvánosak);
 - van egy metódusa, amely egy paraméterként kapott értékkel megnöveli a fizetést;
 - van egy metódusa, amely egy String-be összefűzi a nevet és a fizetést és ezt adja vissza.
+
 Az Alkalmazott osztályt használó osztályban egy main metódus van, amelyben létrehozunk egy Alkalmazott objektumot: értéket adunk a tagjainak, kiírjuk az adatait, megemeljük a fizetését és újra kiírjuk az adatait.
 
 b) Írjuk át az adattagokat private-ra és készítsünk setter metódusokat az adatok beállításához, és getter metódusokat az adatok lekérdezéséhez (adatrejtés). Írjuk át ennek megfelelően az Alkalmazott osztályt használó osztályt.
