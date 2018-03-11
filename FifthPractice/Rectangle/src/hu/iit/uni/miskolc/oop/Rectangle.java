@@ -75,7 +75,7 @@ public class Rectangle {
 		Rectangle other = (Rectangle) obj;
 		if (a != other.a)
 			return false;
-		return !(b != other.b);
+		return b == other.b;
 	}
 
 	@Override
