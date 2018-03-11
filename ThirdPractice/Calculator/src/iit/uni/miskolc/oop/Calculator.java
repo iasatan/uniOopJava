@@ -1,11 +1,6 @@
 package iit.uni.miskolc.oop;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-
-
 
 public class Calculator {
 
@@ -17,7 +12,8 @@ public class Calculator {
 		Double secondNumber;
 		String operator;
 		while (true) {
-			// reads the calculation from the console in the form of number space operator space number (2 + 5)
+			// reads the calculation from the console in the form of number space operator
+			// space number (2 + 5)
 			calculation = scanner.nextLine();
 			// extracts the numbers and operator from the string
 			firstNumber = Double.parseDouble(calculation.split(" ")[0]);

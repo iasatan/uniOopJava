@@ -3,7 +3,7 @@ package iit.uni.miskolc.oop;
 import java.util.Arrays;
 import java.util.Random;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		int[] array = new int[10];

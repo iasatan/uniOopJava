@@ -43,11 +43,25 @@ public class Rectangle {
 	// Írjon metódust, amely igazat ad, ha a téglalap nagyobb területű, mint a
 	// paraméterként kapott téglalap, hamisat ad ha nem.
 	public boolean isBigger(Rectangle rectangle) {
-		if (rectangle.area() < area()) {
-			return true;
-		}
-		return false;
+		return rectangle.area() < area();
 	}
+
+	public int getA() {
+		return a;
+	}
+
+	public void setA(int a) {
+		this.a = a;
+	}
+
+	public int getB() {
+		return b;
+	}
+
+	public void setB(int b) {
+		this.b = b;
+	}
+
 	// Írjon metódust, amely igazat ad, ha a téglalap oldalai megegyeznek a
 	// paraméterként kapotz téglalap oldalaival, hamisat ha nem.
 	@Override
@@ -61,13 +75,7 @@ public class Rectangle {
 		Rectangle other = (Rectangle) obj;
 		if (a != other.a)
 			return false;
-		if (b != other.b)
-			return false;
-		return true;
-	}
-	
-	public int getA() {
-		return a;
+		return !(b != other.b);
 	}
 
 	@Override
@@ -77,20 +85,6 @@ public class Rectangle {
 		result = prime * result + a;
 		result = prime * result + b;
 		return result;
-	}
-
-	
-
-	public void setA(int a) {
-		this.a = a;
-	}
-
-	public int getB() {
-		return b;
-	}
-
-	public void setB(int b) {
-		this.b = b;
 	}
 
 }

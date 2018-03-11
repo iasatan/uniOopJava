@@ -14,18 +14,11 @@ public class Employee {
 	 */
 
 	public boolean isBetweenSalary(int lowerSalary, int upperSalary) {
-		if (salary < upperSalary && salary > lowerSalary) {
-			return true;
-		}
-		return false;
+		return (salary < upperSalary && salary > lowerSalary);
 	}
 	
 	public boolean hasBiggerSalary(Employee otherEmployee) {
-		if(salary<otherEmployee.salary) {
-			return true;
-		}
-		return false;
-		
+		return salary<otherEmployee.salary;
 	}
 	public double getTax() {
 		return salary*0.16;
@@ -51,8 +44,9 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	@Override
 	public String toString() {
-		return "Név: " + name + ", fizetés: " + salary+" ft";
+		return "Employee [name=" + name + ", salary=" + salary + "]";
 	}
 
 }
