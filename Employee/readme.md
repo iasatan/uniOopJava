@@ -25,9 +25,35 @@ d) Az Alkalmazott osztályt használó osztályban deklaráljunk és töltsünk 
 
 #
 
-2. Készítsen Könyv osztályt és egy Könyv osztályt használó osztályt.
-a) A Könyv osztály adattagjai: cím, szerző, megjelenés éve, ára. Legyen egy metódusa, amely a paraméterként kapott százalékos értékkel növeli a könyv árát. Legyen egy metódusa, ami egy String-be összefűzi az adatokat és ezt adja vissza.
-b) Írjunk setter metódusokat az adatok beállításához, és getter metódusokat az adatok lekérdezéséhez (adatrejtés → ellenőrzött adathozzáférés).
+# 6. gyakorlat
+## Osztálydefiníció, statikus tagok, final tagok, függvénytúlterhelés, this, csomagok
+1. Készítsen egy Alkalmazott osztályt név, kor és fizetés adatokkal.
+- Legyen egy osztályszintű adattagja a nyugdíjkorhatár tárolására, értéke kezdetben legyen 65.
+- Legyen 2 konstruktora. Az egyik a paraméterként kapott név, kor és fizetés értékekkel inicializálja az adattagokat. A másiknak csak a nevet és a kort kell megadni, a fizetés 10000*kor.
+- Legyen metódusa, amely visszadja hány éve van még nyugdíjig.
++ Legyen metódusa, amely String-be összefűzve adja vissza az Alkalmazott adatait, hozzáfűzve a nyugdíjig hátrelevő éveinek számát is.
+- Legyen metódusa, amely a paraméterként kapott értékre állítja be a nyugdíjkorhatárt.
+- Legyen metódusa, amely a paraméterként kapott két Alkalmazott közül azt adja vissza, amelyiknek több éve van még hátra a nyugdíjig.
+
+Készítsen egy futtatható osztályt, amely beolvas n számú alkalmazottat egy tömbbe.
+- Írja ki az alkalmazottak adatait, majd módosítsa a nyugdíjkorhatárt és újra írja ki az alkalmazottak adatait.
+- Írja ki azon alkalmazottak adatait, akiknek 5 évnél kevesebb van még hátra nyugdíjig.
+- Írja ki azoknak az alkalmazottaknak az adatait, akiknek az átlagnál több éve van még hátra nyugdíjig.
+- Rendezze az alkalmazottak tömbjét a nyugdíjig hátralévő évek alapján növekvő, majd pedig csökkentő sorrendbe.
+
+Módosítsa az Alkalmazott osztály definícióját úgy, hogy ne az alkalmazott korát, hanem a születési dátumát tároljuk. Java 8-ban:<br>
+import java.time.LocalDate;<br>
+LocalDate birthday = LocalDate.of(1998,5,10); //year, month, day<br>
+LocalDate currentDate = java.time.LocalDate.now();<br>
+int currentYear = currentDate.getYear();<br>
+A korát az aktuális év és a születési év különbségeként számítjuk. Módosítsa a metódusait és a futtatható osztályt ennek megfelelően.<br>
+Készítsen egy metódust, amely String-be összefűzve kiírja az Alkalmazott nevét, korát és a születésnapját <br>
+(Kiss Tamás, 34 : március 12.).<br>
+String month = birthday.getMonth().name();<br>
+int monthvalue = birthday.getMonthValue();<br>
+int day = birthday.getDayOfMonth();<br>
+A getMonth().name() metódus a hónap angol nevét adja vissza.<br>
+Írjon konverziós metódust, amely a hónap sorszámának ismeretében visszaadja a magyar hónapnevet. A magyar hónapneveket 13 elemű String tömbben tároljuk, ahol a 0. indexű elemet nem használjuk.
 
 Házi feladat:
 
