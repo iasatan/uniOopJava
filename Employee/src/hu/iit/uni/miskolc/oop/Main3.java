@@ -15,7 +15,7 @@ public class Main3 {
 		Employee[] employees = new Employee[number];
 
 		for (int i = 0; i < employees.length; i++) {
-			employees[i] = new Employee("employee" + i, rnd.nextInt(100000), LocalDate.of((1950+rnd.nextInt(70)), 01, 05));
+			employees[i] = new Employee("employee" + i, rnd.nextInt(100000), LocalDate.of((1950+rnd.nextInt(70)), rnd.nextInt(12)+1, 05));
 		}
 
 		// Írja ki az alkalmazottak adatait, majd módosítsa a nyugdíjkorhatárt és újra

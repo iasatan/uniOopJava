@@ -44,7 +44,7 @@ public class Employee {
 	// adatait, hozzáfűzve a nyugdíjig hátrelevő éveinek számát is.
 	@Override
 	public String toString() {
-		return name + ", született: " + birthDate.getYear() + ". " + birthDate.getMonthValue() + ". "
+		return name + ", született: " + birthDate.getYear() + ". " + getMonthNameFromMonthNumber(birthDate.getMonthValue()) + ". "
 				+ birthDate.getDayOfMonth() + " ," + salary + "ft " + yearsLeftToPension() + "év van nyugdíjig";
 	}
 
@@ -64,6 +64,28 @@ public class Employee {
 		return secondEmployee;
 	}
 
+	// A getMonth().name() metódus a hónap angol nevét adja vissza.
+	// Írjon konverziós metódust, amely
+	// a hónap sorszámának ismeretében visszaadja a magyar hónapnevet. A magyar
+	// hónapneveket 13
+	// elemű String tömbben tároljuk, ahol a 0. indexű elemet nem használjuk.
+	private static String getMonthNameFromMonthNumber(int number) {
+		String[] months = new String[13];
+		months[1]="Január";
+		months[2]="Február";
+		months[3]="Március";
+		months[4]="Április";
+		months[5]="Május";
+		months[6]="Június";
+		months[7]="Július";
+		months[8]="Augusztus";
+		months[9]="Szeptember";
+		months[10]="Október";
+		months[11]="November";
+		months[12]="December";
+		return months[number];
+		
+	}
 	/*
 	 * adjon vissza igazat, ha a fizetés a paraméterként megadott határok közé esik,
 	 * és hamisat ha nem; adja vissza a fizetendő adó értéket, ha az adókulcs 16% ;
