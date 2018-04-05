@@ -11,3 +11,91 @@ However following my GitHub account can be usefull (mostly for me), if you are i
 
 If you have any problems feel free to ask them in email or during the lesson.<br />
 Email Address: satan@iit.uni-miskolc.hu
+<table>
+  <tr>
+    <td>I5DCJY</td>
+    <td>megbukott</td>
+  </tr>
+  <tr>
+    <td>TFOE75</td>
+    <td>ok</td>
+  </tr>
+  <tr>
+    <td>CZXDBY</td>
+    <td>megbukott</td>
+  </tr>
+  <tr>
+    <td>F45GJY</td>
+    <td>ok</td>
+  </tr>
+  <tr>
+    <td>K8HJGD</td>
+    <td>utolsó esély</td>
+  </tr>
+  <tr>
+    <td>M9QNOF</td>
+    <td>ok</td>
+  </tr>
+  <tr>
+    <td>QQJEM2</td>
+    <td>ok</td>
+  </tr>
+  <tr>
+    <td>JJ181J</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>FHOMBK</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>N95LGI</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>AX8HIY</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>GXN833</td>
+    <td>ok</td>
+  </tr>
+  <tr>
+    <td>AEAMCI</td>
+    <td>ok</td>
+  </tr>
+  <tr>
+    <td>AQ1L7O</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>ID4JQM</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>PORKGB</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>QH2GS7</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>G12DMN</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+  <tr>
+    <td>QIYR1L</td>
+    <td>jelenlét teljesítve</td>
+  </tr>
+</table>
+
+Megbukott: több hiányzása van mint lehetséges
+  
+Jelenlét teljesítve: az aláírás jelenlétre vonatkozó része teljesítve
+  
+Ok: még kell órára járnia, de nincs túl sok hiányzása
+  
+Utolsó esély: még egy hiányzás és megbukott
+
+Gyakok közötti vándorlás lehetséges. Ha valaki bejárt egy másik gyakra akkor hiába bukott meg nálam, ha ott megvan a szükséges óraszám akkor átment.
