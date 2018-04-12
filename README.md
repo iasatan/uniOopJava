@@ -18,7 +18,7 @@ Email Address: satan@iit.uni-miskolc.hu
   </tr>
   <tr>
     <td>TFOE75</td>
-    <td>ok</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>CZXDBY</td>
@@ -26,7 +26,7 @@ Email Address: satan@iit.uni-miskolc.hu
   </tr>
   <tr>
     <td>F45GJY</td>
-    <td>ok</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>K8HJGD</td>
@@ -34,11 +34,11 @@ Email Address: satan@iit.uni-miskolc.hu
   </tr>
   <tr>
     <td>M9QNOF</td>
-    <td>ok</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>QQJEM2</td>
-    <td>ok</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>JJ181J</td>
@@ -58,11 +58,11 @@ Email Address: satan@iit.uni-miskolc.hu
   </tr>
   <tr>
     <td>GXN833</td>
-    <td>ok</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>AEAMCI</td>
-    <td>ok</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>AQ1L7O</td>
