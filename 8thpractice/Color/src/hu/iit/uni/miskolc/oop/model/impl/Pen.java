@@ -17,6 +17,7 @@ public class Pen extends Product implements Colorable {
 		this.brand = brand;
 	}
 
+
 	// Definiálja felül az örökölt toString() metódust
 	@Override
 	public String toString() {

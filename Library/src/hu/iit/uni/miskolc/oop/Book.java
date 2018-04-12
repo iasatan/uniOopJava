@@ -1,11 +1,23 @@
 package hu.iit.uni.miskolc.oop;
 
+import java.util.Date;
+
 public class Book {
 	private String title;
 	private String author;
 	private int releaseYear;
 	private double price;
 	
+	
+	
+	public Book() {
+	}
+	public Book(String title, String author, int releaseYear, double price) {
+		this.title = title;
+		this.author = author;
+		this.releaseYear = releaseYear;
+		this.price = price;
+	}
 	public String getTitle() {
 		return title;
 	}
@@ -36,7 +48,6 @@ public class Book {
 	}
 	
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "title: "+title+" , "+author+","+releaseYear+", "+price;
 	}
 	
