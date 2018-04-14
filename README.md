@@ -1,7 +1,5 @@
 # uniOopJava
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4feec49644fd4b80b373bd773068b51f)](https://app.codacy.com/app/iasatan/uniOopJava?utm_source=github.com&utm_medium=referral&utm_content=iasatan/uniOopJava&utm_campaign=badger)
-
 Tasks and their solutions for the course Object Oriented Programing (java) in University of Miskolc.
 
 For the Students:<br />
