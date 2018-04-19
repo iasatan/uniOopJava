@@ -1,0 +1,23 @@
+Készítsen egy mozi projektet.
+Valósítsa meg benne a következőket:
+-Külön Enum a film kategóriákra(Scifi, romcom, akció, egyéb)
+-film interface:
+    metódusok:  szűrés név szerint
+                szűrés év szerint
+                szereplők lekérdezése     
+-model osztály a filmeknek
+    adattagok:  cím
+                producer
+                kategória
+                év
+                főszereplők
+    implementálja a film interface-t
+-model osztály az oszkár díjas filmeknek
+    a film osztályból származzon le
+    adattagjai: nyerés éve
+                nyertes kategória
+
+Készítsen egy futtatható osztályt amelyben:
+bekér egy számot, generáljon random annyi filmet és oszkár díjas filmet
+irassa ki a movietitle1 című filmeket, ha nincs akkor azt, hogy "ó jaj, nincs ilyen film" exception segítségével
+legyen benne egy osztályszintű metódus ami összehasonlít két filmet és visszaadja azt amelyik hamarabb készült

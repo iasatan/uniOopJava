@@ -1,7 +1,8 @@
 package iit.uni.miskolc.oop;
+import iit.uni.miskolc.oop.exception.*;
 
 public class Util {
-	public static void calculate(String operator, Double firstNumber, Double secondNumber) {
+	public static void calculate(String operator, Double firstNumber, Double secondNumber) throws DivisionByZeroException {
 		System.out.print("Result: ");
 		// switch case depending on the operator
 		//syso-s the result
@@ -17,7 +18,8 @@ public class Util {
 			if (!secondNumber.equals(0.0))
 				System.out.println(firstNumber / secondNumber);
 			else
-				System.out.println("Cannot divide with 0");
+				throw new DivisionByZeroException("cannot divide by zero");
+				//System.out.println("Cannot divide with 0");
 			break;
 		case "*":
 			System.out.println(firstNumber * secondNumber);
