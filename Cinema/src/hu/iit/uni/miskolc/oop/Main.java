@@ -5,12 +5,13 @@ import java.util.Scanner;
 
 import hu.iit.uni.miskolc.oop.model.InvalidWinnigYearException;
 import hu.iit.uni.miskolc.oop.model.Movie;
+import hu.iit.uni.miskolc.oop.model.NoSuchMovieException;
 import hu.iit.uni.miskolc.oop.model.impl.MovieImpl;
 import hu.iit.uni.miskolc.oop.model.impl.OscarMovie;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NoSuchMovieException {
 		Scanner scanner = new Scanner(System.in);
 		int arraySize = scanner.nextInt();
 		Random rnd = new Random();
@@ -44,6 +45,9 @@ public class Main {
 				System.out.println(movieImpl);
 				notFound = false;
 			}
+		}
+		if(notFound) {
+			throw new NoSuchMovieException();
 		}
 		System.out.println(getOlderMovie(movies[0], oscarMovies[0]));
 		displayMoviesByName("movietitle4", oscarMovies);
