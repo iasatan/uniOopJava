@@ -24,9 +24,11 @@ public class Calculator {
 			try {
 				Util.calculate(operator, firstNumber, secondNumber);
 			} catch (DivisionByZeroException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
+			} catch (IllegalArgumentException e) {
+				break;
 			}
+			
 		}
 	}
 

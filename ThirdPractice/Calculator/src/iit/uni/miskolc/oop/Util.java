@@ -2,7 +2,7 @@ package iit.uni.miskolc.oop;
 import iit.uni.miskolc.oop.exception.*;
 
 public class Util {
-	public static void calculate(String operator, Double firstNumber, Double secondNumber) throws DivisionByZeroException {
+	public static void calculate(String operator, Double firstNumber, Double secondNumber) throws DivisionByZeroException, IllegalArgumentException {
 		System.out.print("Result: ");
 		// switch case depending on the operator
 		//syso-s the result
@@ -18,7 +18,7 @@ public class Util {
 			if (!secondNumber.equals(0.0))
 				System.out.println(firstNumber / secondNumber);
 			else
-				throw new DivisionByZeroException("cannot divide by zero");
+				throw new DivisionByZeroException();
 				//System.out.println("Cannot divide with 0");
 			break;
 		case "*":
@@ -26,8 +26,7 @@ public class Util {
 			break;
 
 		default:
-			System.out.println("unknown operator");
-			break;
+			throw new IllegalArgumentException("unkown operator");
 		}
 
 	}
