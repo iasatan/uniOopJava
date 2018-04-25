@@ -28,7 +28,7 @@ Email Address: satan@iit.uni-miskolc.hu
   </tr>
   <tr>
     <td>K8HJGD</td>
-    <td>utolsó esély</td>
+    <td>jelenlét teljesítve</td>
   </tr>
   <tr>
     <td>M9QNOF</td>
